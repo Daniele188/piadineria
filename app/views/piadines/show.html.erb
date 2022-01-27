@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @piadine.Nome %>
+</p>
+
+<p>
+  <strong>Impasto:</strong>
+  <%= @piadine.impasto %>
+</p>
+
+<p>
+  <strong>Farcitura:</strong>
+  <%= @piadine.farcitura %>
+</p>
+
+<p>
+  <strong>Quantità:</strong>
+  <%= @piadine.quantità %>
+</p>
+
+<p>
+  <strong>Indirizzo:</strong>
+  <%= @piadine.indirizzo %>
+</p>
+
+<%= link_to 'Edit', edit_piadine_path(@piadine) %> |
+<%= link_to 'Back', piadines_path %>

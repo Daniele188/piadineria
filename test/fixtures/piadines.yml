@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Nome: MyString
+  impasto: MyString
+  farcitura: MyText
+  quantità: 1
+  indirizzo: MyText
+
+two:
+  Nome: MyString
+  impasto: MyString
+  farcitura: MyText
+  quantità: 1
+  indirizzo: MyText

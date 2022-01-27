@@ -1,0 +1,2 @@
+class Piadine < ApplicationRecord
+end
